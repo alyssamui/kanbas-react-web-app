@@ -1,0 +1,119 @@
+<html>
+  <body>
+    <select id="select">
+      <option selected value="PUBLISH-ALL">Gradebook</option>
+    </select>
+    <button type="button">Import</button>
+    <select id="select">
+      <option selected value="EXPORT">Export</option>
+    </select>
+    <button type="button">Configure</button>
+    <h2>Student Names</h2>
+    <input type="text" id="search-students" placeholder="Search Students" />
+    <h2>Assignment Names</h2>
+    <input type="text" id="search-students" placeholder="Search Assignments" />
+    <br />
+    <br />
+    <button type="button">Apply Filters</button>
+    <br />
+    <br />
+    <table border="1" width="100%" table-layout="fixed">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>A1 SETUP <br />Out of 100</th>
+          <th>A2 HTML <br />Out of 100</th>
+          <th>A3 CSS <br />Out of 100</th>
+          <th>A4 BOOTSTRAP <br />Out of 100</th>
+          <th>A5 JAVASCRIPT <br />Out of 100</th>
+          <th>A6 REACT <br />Out of 100</th>
+          <th>A7 REDUX <br />Out of 100</th>
+          <th>A8 NODE <br />Out of 100</th>
+          <th>A9 MONGO <br />Out of 100</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice Wonderland</td>
+          <td>98</td>
+          <td>
+            <input
+              type="number"
+              id="grade"
+              placeholder="89"
+              max="100"
+              min="0"
+            /><br />
+          </td>
+          <td>87</td>
+          <td>90</td>
+          <td>89</td>
+          <td>94</td>
+          <td>88</td>
+          <td>87</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Princess Leia</td>
+          <td>
+            <input
+              type="number"
+              id="grade"
+              placeholder="100"
+              max="100"
+              min="0"
+            /><br />
+          </td>
+          <td>98</td>
+          <td>78</td>
+          <td>98</td>
+          <td>71</td>
+          <td>87</td>
+          <td>96</td>
+          <td>74</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Luke Skywalker</td>
+          <td>87</td>
+          <td>43</td>
+          <td>87</td>
+          <td>45</td>
+          <td>56</td>
+          <td>14</td>
+          <td>74</td>
+          <td>
+            <input
+              type="number"
+              id="grade"
+              placeholder="67"
+              max="100"
+              min="0"
+            /><br />
+          </td>
+          <td>98</td>
+        </tr>
+        <tr>
+          <td>Han Solo</td>
+          <td>43</td>
+          <td>12</td>
+          <td>16</td>
+          <td>
+            <input
+              type="number"
+              id="grade"
+              placeholder="13"
+              max="100"
+              min="0"
+            /><br />
+          </td>
+          <td>45</td>
+          <td>36</td>
+          <td>68</td>
+          <td>97</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
