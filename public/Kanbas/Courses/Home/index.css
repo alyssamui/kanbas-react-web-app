@@ -11,10 +11,14 @@
   background-color: #f0f0f0;
   border-color: lightgray;
   color: black;
+  border-radius: 3px;
 }
 
 .header-buttons > select {
-  width: 10%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  width: 12%;
   height: 10%;
 }
 
@@ -74,4 +78,54 @@ a:hover {
 a:active {
   color: red;
   text-decoration: none;
+}
+
+#unpublish {
+  background-color: lightgray;
+  border-radius: 0;
+  border-color: lightgray;
+  color: black;
+  margin-right: 0;
+}
+
+#published {
+  background-color: darkseagreen;
+  border-color: darkseagreen;
+  border-radius: 0;
+  margin-left: 0;
+}
+
+#course-status-long-buttons {
+  width: 100%;
+  background-color: lightgray;
+  border-color: lightgray;
+  color: black;
+  border-radius: 0;
+  margin: 2px 0px 0px 2px;
+}
+
+p {
+  font-weight: bolder;
+}
+
+.fa-times {
+  color: darkgray;
+}
+
+.todo {
+  margin-bottom: 5px;
+}
+
+.todo-desc {
+  font-size: small;
+}
+
+.coming-up {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.flex-fill {
+  padding: 0px 25px 0px 25px;
 }
