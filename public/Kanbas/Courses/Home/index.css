@@ -129,3 +129,22 @@ p {
 .flex-fill {
   padding: 0px 25px 0px 25px;
 }
+
+.hamburger-navigation {
+  width: 100%;
+  list-style: none;
+}
+
+.hamburger-times {
+  position: absolute;
+  color: darkgray;
+  right: 0;
+  text-align: right;
+}
+
+.times {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+}
