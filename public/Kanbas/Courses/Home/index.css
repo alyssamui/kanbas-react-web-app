@@ -108,7 +108,7 @@ p {
   font-weight: bolder;
 }
 
-.fa-times {
+.fa-times-gray {
   color: darkgray;
 }
 
@@ -126,8 +126,24 @@ p {
   justify-content: space-between;
 }
 
-.flex-fill {
-  padding: 0px 25px 0px 25px;
+.modules {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 5px 5px 0px 5px;
+}
+
+.mobile-headers {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.mobile-headers-text {
+  text-align: center;
 }
 
 .hamburger-navigation {
@@ -147,4 +163,41 @@ p {
   flex-direction: row;
   align-items: right;
   justify-content: right;
+}
+
+.collapse-nav {
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: 100vh;
+  font-size: x-large;
+}
+
+.hamburger-navigation > li {
+  padding: 10px;
+}
+
+.collapse-course-nav {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.collapse-course-nav > ul {
+  list-style: none;
+}
+
+.collapse-course-nav > ul > .nav-active {
+  font-weight: bold;
+}
+
+.course-nav {
+  margin-right: 20px;
+}
+
+.course-status {
+  margin-left: 20px;
 }
