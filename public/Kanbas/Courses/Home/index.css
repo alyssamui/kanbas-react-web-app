@@ -1,3 +1,28 @@
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+.wd-kanbas-navigation > li > a:link {
+  color: white;
+}
+
+.wd-kanbas-navigation > li > a:visited {
+  color: white;
+}
+
 .header-buttons {
   display: flex;
   flex-direction: row;
@@ -61,23 +86,6 @@
 
 .wd-modules > li {
   margin-bottom: 20px;
-}
-
-a:link {
-  color: red;
-  text-decoration: none;
-}
-a:visited {
-  color: red;
-  text-decoration: none;
-}
-a:hover {
-  color: darkred;
-  text-decoration: none;
-}
-a:active {
-  color: red;
-  text-decoration: none;
 }
 
 #unpublish {

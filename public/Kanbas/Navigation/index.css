@@ -17,6 +17,9 @@
 .wd-kanbas-navigation li.wd-active a {
   color: red;
 }
+.wd-kanbas-navigation li.wd-active a:visited {
+  color: red;
+}
 .wd-kanbas-navigation a {
   color: white;
   text-decoration: none;
