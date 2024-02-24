@@ -1,0 +1,88 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  flex: 7 3 auto;
+  width: auto;
+}
+
+.modules {
+  width: max-content;
+  flex-grow: 3;
+}
+
+.status {
+  width: max-content;
+  flex-grow: 1;
+}
+
+#add-module-button {
+  background-color: red;
+  color: white;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-buttons > button {
+  margin: 5px;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-color: lightgray;
+  color: black;
+  border-radius: 3px;
+}
+
+.header-buttons > select {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  width: 125px;
+  height: 10%;
+}
+
+.todo {
+  margin-bottom: 5px;
+}
+
+.todo-desc {
+  font-size: small;
+}
+
+.coming-up {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+#unpublish {
+  background-color: lightgray;
+  border-radius: 0;
+  border-color: lightgray;
+  color: black;
+  margin-right: 0;
+}
+
+#published {
+  background-color: darkseagreen;
+  border-color: darkseagreen;
+  border-radius: 0;
+  margin-left: 0;
+}
+
+#course-status-long-buttons {
+  width: 100%;
+  background-color: lightgray;
+  border-color: lightgray;
+  color: black;
+  border-radius: 0;
+  margin: 2px 0px 0px 2px;
+}
+
+.course-status .btn {
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+#search-assignments {
+  width: 20%;
+  margin-right: 5px;
+}
+
+#add-assignment {
+  background-color: red;
+  color: white;
+  border-color: darkred;
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px;
+  border-color: darkgrey;
+  border: 1px;
+}
+
+#total {
+  border-radius: 25px;
+  padding: 3px;
+  font-size: small;
+  margin-right: 5px;
+}

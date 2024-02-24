@@ -8,7 +8,6 @@ function CourseNavigation() {
     "Grades",
     "Assignments",
     "Quizzes",
-    "Grades",
     "People",
   ];
   const { pathname } = useLocation();

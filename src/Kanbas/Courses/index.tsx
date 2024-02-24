@@ -4,6 +4,8 @@ import { HiMiniBars3 } from "react-icons/hi2";
 import "./index.css";
 import CourseNavigation from "./Navigation";
 import Modules from "./Modules";
+import Home from "./Home";
+import Assignments from "./Assignments";
 
 function Courses() {
   const { courseId } = useParams();
@@ -15,18 +17,15 @@ function Courses() {
         <div className="courseHeader">Course {course?.name} </div>
       </h1>
       <hr />
-      <CourseNavigation />
-      <div>
-        <div
-          className="overflow-y-scroll position-fixed bottom-0 end-0"
-          style={{ left: "250px", top: "110px" }}
-        >
+      <div className="courses">
+        <CourseNavigation />
+        <div style={{ width: "100%", left: "250px", top: "110px" }}>
           <Routes>
             <Route path="/" element={<Navigate to="Home" />} />
-            <Route path="Home" element={<h1>Home</h1>} />
+            <Route path="Home" element={<Home />} />
             <Route path="Modules" element={<Modules />} />
             <Route path="Piazza" element={<h1>Piazza</h1>} />
-            <Route path="Assignments" element={<h1>Assignments</h1>} />
+            <Route path="Assignments" element={<Assignments />} />
             <Route
               path="Assignments/:assignmentId"
               element={<h1>Assignment Editor</h1>}
