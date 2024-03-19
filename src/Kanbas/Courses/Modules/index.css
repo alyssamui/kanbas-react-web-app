@@ -59,6 +59,47 @@
   margin-bottom: 20px;
 }
 
+.form-control {
+  border-radius: 3px;
+  padding: 3px;
+  margin: 3px;
+}
+
+.wd-modules-form > .add-module > .btn {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+}
+
+.add-module {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add {
+  background-color: green;
+  border-radius: green;
+}
+
+.edit-delete-module > .btn {
+  margin: 0px 5px 0px 5px;
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+}
+
+.delete {
+  background-color: red;
+  border-radius: red;
+}
+
+.module-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* a:link {
   color: red;
   text-decoration: none;

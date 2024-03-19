@@ -1,0 +1,29 @@
+.edit {
+  margin-left: 5px;
+}
+
+.delete {
+  margin-left: 5px;
+  background-color: red;
+  border-color: red;
+}
+
+.delete:hover {
+  margin-left: 5px;
+  background-color: darkred;
+  border-color: darkred;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.h2 {
+  margin-top: 5px;
+}
+
+.btn {
+  margin: 5px;
+}
